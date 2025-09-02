@@ -11,36 +11,28 @@ Include the neural network model diagram.
 
 ## DESIGN STEPS
 ### STEP 1: 
-
-Write your own steps
+Import all the required libraries (PyTorch, TorchVision, NumPy, Matplotlib, etc.)
 
 ### STEP 2: 
-
-
+Download and preprocess the MNIST dataset using transforms.
 
 ### STEP 3: 
-
-
+Create a CNN model with convolution, pooling, and fully connected layers.
 
 ### STEP 4: 
-
-
+Set the loss function and optimizer. Move the model to GPU if available.
 
 ### STEP 5: 
-
-
+Train the model using the training dataset for multiple epochs.
 
 ### STEP 6: 
-
-
-
-
+Evaluate the model using the test dataset and visualize the results (accuracy, confusion matrix, classification report, sample prediction).
 
 ## PROGRAM
 
-### Name:
+### Name:Saranya V
 
-### Register Number:
+### Register Number:212223040188
 
 ```python
 class CNNClassifier(nn.Module):
@@ -66,18 +58,16 @@ def train_model(model, train_loadr, num_epochs=10):
 ### OUTPUT
 
 ## Training Loss per Epoch
-
-Include the Training Loss per epoch
+<img width="252" height="220" alt="dl1" src="https://github.com/user-attachments/assets/0944cd1e-2d06-4099-afb6-3a49bd2f3c3e" />
 
 ## Confusion Matrix
-
-Include confusion matrix here
+<img width="532" height="460" alt="dl2" src="https://github.com/user-attachments/assets/596843ac-8725-45e0-9df3-abfd1c176b76" />
 
 ## Classification Report
-Include classification report here
+<img width="410" height="337" alt="dl3" src="https://github.com/user-attachments/assets/fe1d5fdd-76c1-4ce2-898c-f3d184bb52f1" />
 
 ### New Sample Data Prediction
-Include your sample input and output here
+<img width="390" height="452" alt="dl4" src="https://github.com/user-attachments/assets/d3503330-2d80-48b3-9a42-ae4f7b3a329e" />
 
 ## RESULT
-Include your result here
+Developing a convolutional neural network (CNN) classification model for the given dataset was executed successfully.
